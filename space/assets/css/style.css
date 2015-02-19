@@ -1,19 +1,32 @@
 #bin {
-  position:relative;
-  height:281px;
-  width:450px;
+  position: absolute;
+  height:120px;
+  width:90px;
   margin:0 auto;
+  top: 50%;
+  left: 50%;
+  margin-left: -45px;
+  margin-top: -60px;
 }
 
 #bin img {
   position:absolute;
   left:0;
+  bottom: 0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
 
-#bin img.top:hover {
+#bin:hover .top {
   opacity:0;
+}
+
+.bottom {
+  opacity:0;
+}
+
+#bin:hover .bottom {
+  opacity:1;
 }
