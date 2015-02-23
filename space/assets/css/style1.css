@@ -21,9 +21,9 @@
     color: #000000;
 }
 
-.links: hover {
-    font-weight: bolder;
-    color: #000000;
+.links: a:hover {
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .trash {
@@ -33,5 +33,4 @@
 
 .drawings {
     width: 70px;
-    
 }
