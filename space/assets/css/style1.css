@@ -21,9 +21,8 @@
     color: #000000;
 }
 
-.links: a:hover {
-    font-weight: bold;
-    text-decoration: none;
+.links:hover {
+    font-weight: normal;
 }
 
 .trash {
