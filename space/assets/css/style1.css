@@ -47,9 +47,24 @@ a:hover{
 }
 
 .up {
-    width: 50px;
+    /*width: 0px;*/
     /*margin: 0 auto;*/
-    /*margin-left: 100px;*/
+    position: relative;
+    margin-top: 0px;
+    margin-left: 45%;
+}
+
+.cross {
+    position: relative;
+    margin-top: -30px;
+    margin-left: 87%;
+}
+
+.down {
+    margin-top: 75px;    
+    margin-left: 45%;
+    position: absolute;
+    /*width: 50%;*/
 }
 
 .container {
@@ -60,30 +75,38 @@ a:hover{
     border: solid black;
     width: 1000px;
     height: 500px;
+    margin-top: 20px;
     margin-left: 125px;
     background-color: white;
     position: absolute;
-    /*background-repeat: repeat-x;*/
-    background-image: url("images/kurkure.png");
+    background-repeat: repeat-x;
+    background-image: url("assets/images/package2.png");
+    z-index: 100;
 }
 
-.lightbox2 {
-    border: solid black;
-    width: 1000px;
-    height: 500px;
-    margin-left: 125px;
-    margin-top: 70px;
-    background-color: white;
-    /*position: absolute;*/
-    background-repeat: repeat-y;
-    background-image: url("images/kurkure.png");
+.images {
+    width: 200px;
 }
+
+
+/*.lightbox2 {*/
+/*    border: solid black;*/
+/*    width: 1000px;*/
+/*    height: 500px;*/
+/*    margin-left: 125px;*/
+/*    margin-top: 70px;*/
+/*    background-color: white;*/
+/*    position: absolute;*/
+/*    background-repeat: repeat-y;*/
+/*    background-image: url("images/kurkure.png");*/
+/*}*/
 
 
 .trash {
     margin-top: 70px;
     position: relative;
     height: 400px;
+    
 }
 
 .test {
@@ -236,6 +259,3 @@ a:hover{
 	-webkit-animation-timing-function: linear;
 }
 
-/*.images {*/
-    
-/*}*/
