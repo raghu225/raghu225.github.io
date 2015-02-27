@@ -18,33 +18,170 @@
     margin-left: 20px;
     margin-top: 21px;
     text-decoration: none;
-    color: #000000;
+    color: #000;
+    /*width: 100px;*/
+    /*width to stop it from moving. color black to prevent purple*/
+
 }
 
 .links li { 
     list-style:none; 
-    display:inline; 
+    display:inline-block; 
     margin-left: 10px;
     text-decoration: none;
-}
+    color: #000;
+    width: 40px;
+    /*width: 42px; */
+    /*width to stop it from moving*/
+}   
 
-.links li a:link, 
-.nav li a:visited {   
+a {   
     text-decoration: none; 
-    color: black; 
+    color: #000000; 
     }
     
-.links li a:hover {
+a:hover{
     text-decoration: none;
     font-weight: normal;
+    color: #000;
+}
+
+.up {
+    width: 50px;
+    /*margin: 0 auto;*/
+    /*margin-left: 100px;*/
+}
+
+.container {
+    position: relative;
+}
+
+.lightbox {
+    border: solid black;
+    width: 1000px;
+    height: 500px;
+    margin-left: 125px;
+    background-color: white;
+    position: absolute;
+    /*background-repeat: repeat-x;*/
+    background-image: url("images/kurkure.png");
+}
+
+.lightbox2 {
+    border: solid black;
+    width: 1000px;
+    height: 500px;
+    margin-left: 125px;
+    margin-top: 70px;
+    background-color: white;
+    /*position: absolute;*/
+    background-repeat: repeat-y;
+    background-image: url("images/kurkure.png");
 }
 
 
 .trash {
     margin-top: 70px;
-    /*width: 2000px;*/
     position: relative;
+    height: 400px;
 }
+
+.test {
+    display: inline-block;
+    width: 20px;
+    height:20px;
+}
+
+.drawing1 {top: 10%; left:20%;}
+.drawing2 {top: 20%; left: 50%;}
+.drawing3 {top: 30%;}
+.drawing4 {top: 40%; left: 50%;}
+.drawing5 {top: 50%; left: 20%;}
+.drawing6 {top: 60%; left: 50%;}
+.drawing7 {top: 70%; left: 50%;}
+.drawing8 {top: 50%; left: 30%;}
+.drawing9 {top: 30%; left: 10%;}
+.drawing10 {top: 20%; left: 80%;}
+.drawing11 {top: 10%; left: 60%;}
+.drawing12 {top: 40%; left: 30%;}
+.drawing13 {top: 0%; left: 30%;}
+.drawing14 {top: 40%; left: 0%;}
+.drawing15 {top: 30%; left: 30%;}
+.drawing16 {top: 60%; left: 30%;}
+.drawing17 {top: 80%; left: 90%;}
+.drawing18 {top: 80%; left: 0%;}
+.drawing19 {top: 50%; left: 70%;}
+.drawing20 {top: 40%; left: 20%;}
+.drawing21 {top: 70%; left: 20%;}
+.drawing22 {top: 70%; left: 10%;}
+.drawing23 {top: 60%; left: 0%;}
+.drawing24 {top: 40%; left: 60%;}
+.drawing25 {top: 0%; left: 80%;}
+.drawing26 {top: 0%; left: 65%;}
+.drawing27 {top: 0%; left: 20%;}
+.drawing28 {top: 0%; left: 50%;}
+.drawing29 {top: 70%; left: 70%;}
+.drawing30 {top: 50%; left: 40%;}
+.drawing31 {top: 60%; left: 40%;}
+.drawing32 {top: 70%; left: 40%;}
+.drawing33 {top: 80%; left: 80%;}
+.drawing34 {top: 50%; left: 80%;}
+.drawing35 {top: 40%; left: 40%;}
+.drawing36 {top: 30%; left: 35%;}
+.drawing37 {top: 20%; left: 40%;}
+.drawing38 {top: 10%; left: 40%;}
+.drawing39 {top: 0%; left: 40%;}
+.drawing40 {top: 80%; left: 40%;}
+.drawing41 {top: 85%; left: 45%;}
+.drawing42 {top: 15%; left: 15%;}
+.drawing43 {top: 25%; left: 65%;}
+.drawing44 {top: 35%; left: 55%;}
+.drawing45 {top: 85%; left: 15%;}
+.drawing46 {top: 35%; left: 10%;}
+.drawing47 {top: 65%; left: 85%;}
+.drawing48 {top: 45%; left: 75%;}
+.drawing49 {top: 55%; left: 5%;}
+.drawing50 {top: 95%; left: 25%;}
+.drawing51 {top: 95%; left: 5%;}
+.drawing52 {top: 95%; left: 15%;}
+.drawing53 {top: 85%; left: 25%;}
+.drawing54 {top: 85%; left: 65%;}
+.drawing55 {top: 95%; left: 65%;}
+.drawing56 {top: 95%; left: 85%;}
+.drawing57 {top: 95%; left: 55%;}
+.drawing58 {top: 85%; left: 75%;}
+.drawing59 {top: 65%; left: 60%;}
+.drawing60 {top: 2%; left: 35%;}
+.drawing61 {top: 10%; left: 5%;}
+.drawing62 {top: 05%; left: 10%;}
+.drawing63 {top: 0%; left: 20%;}
+.drawing64 {top: 10%; left: 70%;}
+.drawing65 {top: 100%; left: 40%;}
+.drawing66 {top: 95%; left: 30%;}
+.drawing67 {top: 95%; left: 35%;}
+.drawing68 {top: 100%; left: 10%;}
+.drawing69 {top: 100%; left: 60%;}
+.drawing70 {top: 95%; left: 0%;}
+.drawing71 {top: 5%; right: 0%;}
+.drawing72 {top: 15%; right: 0%;}
+.drawing73 {top: 35%; right: 10%;}
+.drawing74 {top: 25%; right: 0%;}
+.drawing75 {top: 65%; right: 0%;}
+.drawing76 {top: 85%; right: 0%;}
+.drawing77 {top: 100%; right: 15%;}
+.drawing78 {top: 45%; right: 0%;}
+.drawing79 {top: 100%; right: 0%;}
+.drawing80 {top: 40%; right: 0%;}
+.drawing81 {top: 5%; right: 5%;}
+.drawing82 {top: 100%; right: 40%;}
+.drawing83 {top: 15%; right: 5%;}
+.drawing84 {top: 25%; right: 10%;}
+.drawing85 {top: 70%; right: 65%;}
+.drawing86 {top: 55%; right: 80%;}
+.drawing87 {top: 75%; right: 60%;}
+.drawing88 {top: 12%; right: 65%;}
+.drawing89 {top: 30%; right: 70%;}
+.drawing90 {top: 30%; right: 75%;}
 
 .trash-o {
     position: relative;
@@ -54,13 +191,13 @@
 }
 .drawings {
     width: 90px;
-    /*position: absolute;*/
+    position: absolute;
 }
 
 .cat {
     width: 110px;
     position: relative;
-    margin: 15;
+    margin: 15px;
 }
   
 #bin {
@@ -98,3 +235,7 @@
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
 }
+
+/*.images {*/
+    
+/*}*/
