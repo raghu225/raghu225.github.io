@@ -13,3 +13,17 @@ $('.drawings').hover(function() {
     $(this).attr('src', full_path);
 });
 
+$('.drawings').click(function(event) {
+    event.preventDefault();
+    $(this).addClass('viewed');
+    $('.lightbox-wrapper').addClass('show');
+    $('.lightbox').addClass('image');
+    $('.lightbox').html("<img src='assets/images/" + $(this).data("on") + "'>");
+});
+
+$('.cross').click(function(event) {
+    event.preventDefault();
+    
+    $('.lightbox-wrapper').removeClass('show');
+    $('.lightbox').removeClass('image');
+});

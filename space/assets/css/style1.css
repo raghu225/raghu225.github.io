@@ -20,8 +20,6 @@
     text-decoration: none;
     color: #000;
     /*width: 100px;*/
-    /*width to stop it from moving. color black to prevent purple*/
-
 }
 
 .links li { 
@@ -47,22 +45,22 @@ a:hover{
 }
 
 .up {
-    /*width: 0px;*/
+    /*width: 100px;*/
     /*margin: 0 auto;*/
-    position: relative;
-    margin-top: 0px;
-    margin-left: 45%;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 600px;
+    /*margin-bottom: 100px;*/
 }
 
 .cross {
-    position: relative;
-    margin-top: -30px;
-    margin-left: 87%;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 1100px;
 }
-
 .down {
-    margin-top: 75px;    
-    margin-left: 45%;
+    margin-top: 15px;    
+    margin-left: 600px;
     position: absolute;
     /*width: 50%;*/
 }
@@ -71,22 +69,47 @@ a:hover{
     position: relative;
 }
 
+.lightbox-wrapper {
+    display: none;
+    position: fixed;
+}
+
+.lightbox-wrapper.show {
+    display: block;
+    z-index: 100;
+}
+
 .lightbox {
     border: solid black;
     width: 1000px;
     height: 500px;
-    margin-top: 20px;
+    margin-top: -10px;
     margin-left: 125px;
     background-color: white;
-    position: absolute;
-    background-repeat: repeat-x;
-    background-image: url("assets/images/package2.png");
-    z-index: 100;
+    /*position: absolute;*/
+    /*background-repeat: repeat-x;*/
+    /*z-index: 100;*/
 }
 
-.images {
-    width: 200px;
+.lightbox .image {
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/images/package2.png");
+    background-repeat: repeat;
+    /*background-color: white;*/
+    /*z-index: 100;*/
 }
+
+/*.image-wrapper {*/
+/*    display: none;*/
+/*    position: fixed;*/
+/*}*/
+
+/*.image-wrapper.show {*/
+/*    display: block;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*}*/
 
 
 /*.lightbox2 {*/
@@ -215,6 +238,10 @@ a:hover{
 .drawings {
     width: 90px;
     position: absolute;
+}
+
+.drawings.viewed {
+    display: none;
 }
 
 .cat {
