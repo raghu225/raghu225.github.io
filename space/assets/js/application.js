@@ -17,8 +17,9 @@ $('.drawings').click(function(event) {
     event.preventDefault();
     $(this).addClass('viewed');
     $('.lightbox-wrapper').addClass('show');
+    alert($(this).data("img"))
+    $('.lightbox').css({ "background-image": "url(assets/images/" + $(this).data("img") + ")" });
     $('.lightbox').addClass('image');
-    $('.lightbox').html("<img src='assets/images/" + $(this).data("on") + "'>");
 });
 
 $('.cross').click(function(event) {
