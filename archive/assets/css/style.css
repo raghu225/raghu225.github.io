@@ -1,9 +1,13 @@
+body {
+    background-color: red;
+}
+
 .wrapper {
     /*width: 1000px;*/
     /*margin-top: 20px;*/
-    margin-left: 100px;
+    /*margin-left: 300px;*/
     /*position: absolute;*/
-    display: inline;
+    display: inline-block;
 }
 
 .background {
@@ -31,14 +35,10 @@
 
 .white {
     background-color: #fff;
-    width: 90px;
-    height: 90px;
+    /*width: 90px;*/
+    /*height: 90px;*/
     /*float: right;*/
     /*display: inline block;*/
-}
-
-body {
-    background-color: #ec2024;
 }
 
 .grey:hover {

@@ -129,7 +129,6 @@ a:hover{
     margin-top: 70px;
     position: relative;
     height: 400px;
-    
 }
 
 .test {
@@ -140,7 +139,7 @@ a:hover{
 
 .drawing1 {top: 10%; left:20%;}
 .drawing2 {top: 20%; left: 50%;}
-.drawing3 {top: 30%;}
+.drawing3 {top: 30%; }
 .drawing4 {top: 40%; left: 50%;}
 .drawing5 {top: 50%; left: 20%;}
 .drawing6 {top: 60%; left: 50%;}
@@ -238,6 +237,7 @@ a:hover{
 .drawings {
     width: 90px;
     position: absolute;
+    cursor: pointer;
 }
 
 .drawings.viewed {
