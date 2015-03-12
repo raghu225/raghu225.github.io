@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: #d72831;
 }
 
 .wrapper {
@@ -8,18 +8,38 @@ body {
     /*margin-left: 300px;*/
     /*position: absolute;*/
     display: inline-block;
+    width: 100%
 }
 
 .background {
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 90px;
-    height: 90px;
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 70px;
+    height: 70px;
     /*border: solid white;*/
     /*display: inline block;*/
     box-shadow: 1px 1px 12px #000000;
     transition: all .6s ease-in-out;
 }
+
+.vertical1 {
+  position: absolute;
+  margin-left: -342px;
+  margin-top: -170px;
+}
+
+.vertical2 {
+    position: absolute;
+    margin-left: -342px;
+    margin-top: -70px;
+}
+
+.vertical3 {
+    position: absolute;
+    margin-left: -342px;
+    margin-top: 130px;
+}
+
 
 .background:hover {
     transform: scale(1.1);
@@ -27,9 +47,7 @@ body {
 
 .black {
     background-color: #000;
-    width: 90px;
-    height: 90px;
-    /*display: inline block;*/
+    /*display: inline-block;*/
     /*float: left;*/
 }
 
@@ -51,12 +69,13 @@ body {
     font-size: 12px;
     font-weight: lighter;
     width: 70px;
-    margin-left: 5px;
+    margin-left: 200px;
+    margin-top: 30px;
 }
 
 .icon {
-    margin-left: -95px;
-    margin-top: 5px;
+    margin-left: 200px;
+    margin-top: 30px;
     width: 70px;
     height: 70px;
 }
@@ -66,8 +85,10 @@ body {
     width: 70px;
     height: 70px;
     /*margin-right: 0px;*/
-    margin-top: -30px;
-    margin-left: 650px;
+    margin-top: 10px;
+    margin-left: 1000px;
+    text-decoration: none;
+    color: white;
 }
 
 .left {
@@ -78,6 +99,25 @@ body {
     /*position: absolute;*/
     width: 400px;
     height: 400px;
-    margin-top: -250px;
-    margin-left: 160px;
+    margin-top: -220px;
+    margin-left: 450px;
+}
+
+.static-wrapper {
+    width: 100%;
+}
+
+p {
+    margin-left: 10px;
+    padding-top: 10px;
+    font-family: 'courier new', courier;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    /*position: relative;*/
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
