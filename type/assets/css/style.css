@@ -1,0 +1,59 @@
+.bg1 {
+    background-color: #ceeffa;
+    width: 100%;
+    height: 645px;
+    margin: 0px;
+}
+
+.titles {
+    font-family: Avenir, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 200px;
+    font-weight: bolder;
+    margin-left: 50%;
+}
+
+.titles-urvi {
+    background-color: #6d6e70;
+}
+
+.bg2 {
+    background-color: #f5eaff;
+    width: 100%;
+    height: 645px;
+    margin: 0px;
+}
+
+.bg3 {
+    background-color: #ceeffa;
+    width: 100%;
+    height: 645px;
+    margin: 0px;
+}
+
+.bg4 {
+    background-color: #d7f2dc;
+    width: 100%;
+    height: 645px;
+    margin: 0px;
+}
+
+.bg5 {
+    background-color: #f0f2dc;
+    width: 100%;
+    height: 645px;
+    margin: 0px;
+}
+
+.bg6 {
+    background-color: #ffd7d7;
+    width: 100%;
+    height: 645px;
+    margin: 0px;
+}
+
+.bg7 {
+    background-color: #f0effa;
+    width: 100%;
+    height: 645px;
+    margin: 0px;
+}
