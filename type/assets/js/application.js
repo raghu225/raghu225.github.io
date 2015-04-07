@@ -8,6 +8,6 @@
 
 
 // var audio = $(".audio-a")[0];
-// $(".h").mouseenter(function() {
+// $("nav a").mouseenter(function() {
 //   audio.play();
 // });

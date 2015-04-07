@@ -923,3 +923,7 @@
     /*margin-left: 310px;*/
     background-color: white;
 }
+
+.grey-border {
+    border-color: #6d6e70;
+}

@@ -94,13 +94,13 @@ body {
     font-family: 'courier new', courier, monospace;
     font-size: 12pt;
     position: absolute;
-    margin-left: -30px;
-    margin-right: 32px;
-    margin-top: 200px;
+    /*margin-left: -30px;*/
+    /*margin-right: 32px;*/
+    /*margin-top: 200px;*/
     /*float: left;*/
     /*height: 60px;*/
     /*margin-top: 0px;*/
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .box {
