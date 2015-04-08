@@ -3,11 +3,12 @@
 // },{ offset: 0 });
 
 
-// var audio = $(".audio-a")[0];
-// audio.play();
+$('.letter').hover(function() {
+    debugger;
+    var audio = $($(this).data('sound'))[0];
+    audio.play();
+    
+}, function() {
+    
+});
 
-
-// var audio = $(".audio-a")[0];
-// $("nav a").mouseenter(function() {
-//   audio.play();
-// });
