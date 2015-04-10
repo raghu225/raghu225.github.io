@@ -16,6 +16,7 @@
     margin: 60 10px 20px 10px;
     height: 140px;
     /*width: 80px;*/
+    z-index: 999;
 }
 
 .w1 { width: 20px; }
