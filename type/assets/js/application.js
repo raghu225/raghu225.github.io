@@ -144,12 +144,16 @@ $(document).ready(function(){
 //     });
 // })(jQuery);
 
-$(".btn-3").on("click", function( e ) {
+// $(".btn-3").on("click", function( e ) {
     
-    e.preventDefault();
+//     e.preventDefault();
 
-    $("body, html").animate({ 
-        scrollTop: $( $(this).attr('href') ).offset().top 
-    }, 600);
+//     $("body, html").animate({ 
+//         scrollTop: $( $(this).attr('href') ).offset().top 
+//     }, 600);
     
+// });
+
+$('.btn-3').click(function() {
+    location.reload();
 });
