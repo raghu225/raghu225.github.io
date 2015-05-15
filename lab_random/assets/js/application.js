@@ -29,9 +29,8 @@ $(document).ready(function(){
 //   $(this).css("left",newleft);
 // });
 
-
-
 var images = ['assets/images/2.jpg', 'assets/images/3.jpg', 'assets/images/4.jpg', 'assets/images/5.jpg', 'assets/images/6.jpg', 'assets/images/7.jpg', ];
 // $('#background').css({'background-image': 'url(assets/images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
 $(".image-holder").html('<img src="' + images[Math.floor(Math.random()*images.length)]+ '">');
+
